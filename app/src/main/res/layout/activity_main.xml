@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.lovenote.MainActivity"
+    >
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/bgtexture"
+        android:scaleType="centerCrop"/>
+
+    <ImageView
+        android:id="@+id/j"
+        android:layout_width="110dp"
+        android:layout_height="90dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/j"/>
+
+    <TextView
+        android:id="@+id/j2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="40sp"
+        android:fontFamily="cursive"
+        android:text="ust a"
+        android:layout_marginTop="50dp"
+        android:layout_toRightOf="@id/j"/>
+
+    <ImageView
+        android:id="@+id/note"
+        android:layout_width="100dp"
+        android:layout_height="90dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/note"
+        android:layout_toRightOf="@id/j2"/>
+
+    <TextView
+        android:id="@+id/note2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="40sp"
+        android:fontFamily="cursive"
+        android:text="to"
+        android:layout_marginTop="50dp"
+        android:layout_toRightOf="@id/note"/>
+
+    <TextView
+        android:id="@+id/note3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="40sp"
+        android:fontFamily="cursive"
+        android:text="tell my"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="60dp"
+        android:paddingRight="30dp"
+        android:layout_below="@id/j"/>
+
+    <ImageView
+        android:id="@+id/honey"
+        android:layout_width="100dp"
+        android:layout_height="90dp"
+        android:src="@drawable/honey"
+        android:layout_toRightOf="@id/note3"
+        android:layout_below="@id/j"/>
+
+    <ImageView
+        android:id="@+id/pie"
+        android:layout_width="100dp"
+        android:layout_height="90dp"
+        android:layout_marginLeft="50dp"
+        android:src="@drawable/pie"
+        android:layout_below="@id/honey"/>
+
+    <TextView
+        android:id="@+id/pie2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="40sp"
+        android:fontFamily="cursive"
+        android:text="how much"
+        android:paddingTop="30dp"
+        android:paddingLeft="20dp"
+        android:layout_below="@id/honey"
+        android:layout_toRightOf="@id/pie"/>
+
+    <ImageView
+        android:id="@+id/eye"
+        android:layout_width="100dp"
+        android:layout_height="90dp"
+        android:layout_marginLeft="40dp"
+        android:src="@drawable/eye"
+        android:layout_below="@id/pie"/>
+
+    <TextView
+        android:id="@+id/eye2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="40sp"
+        android:fontFamily="cursive"
+        android:text="love her"
+        android:paddingTop="30dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:layout_below="@id/pie"
+        android:layout_toRightOf="@id/eye"/>
+
+    <ImageView
+        android:id="@+id/excl"
+        android:layout_width="70dp"
+        android:layout_height="90dp"
+        android:src="@drawable/exclamation"
+        android:layout_below="@id/pie"
+        android:layout_toRightOf="@id/eye2"/>
+
+    <TextView
+        android:id="@+id/excl2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="40sp"
+        android:fontFamily="cursive"
+        android:paddingRight="20dp"
+        android:text="Your Loving"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/eye"/>
+
+    <ImageView
+        android:id="@+id/h"
+        android:layout_width="70dp"
+        android:layout_height="100dp"
+        android:src="@drawable/h"
+        android:layout_toLeftOf="@id/h2"
+        android:layout_below="@id/excl2"/>
+
+    <TextView
+        android:id="@+id/h2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="40sp"
+        android:fontFamily="cursive"
+        android:paddingRight="20dp"
+        android:text="usband"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/excl2"/>
+
+</RelativeLayout>
